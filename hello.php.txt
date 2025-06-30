@@ -1,0 +1,24 @@
+<?php
+// This is a single-line comment
+
+/*
+ This is a 
+ multi-line comment
+*/
+
+// Using echo and print
+echo "Hello, WebTeam!<br>";
+print "This is your PHP assignment.<br>";
+
+// Declaring variables with different data types
+$name = "Shifa";           // String
+$age = 20;                 // Integer
+$height = 5.4;             // Float
+$isStudent = true;         // Boolean
+
+// Display the variables
+echo "Name: $name<br>";
+echo "Age: $age<br>";
+echo "Height: $height<br>";
+echo "Is a student: " . ($isStudent ? "Yes" : "No") . "<br>";
+?>
